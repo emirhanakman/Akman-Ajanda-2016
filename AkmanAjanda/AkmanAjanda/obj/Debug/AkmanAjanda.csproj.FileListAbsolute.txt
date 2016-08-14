@@ -1,0 +1,10 @@
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\bin\Debug\AkmanAjanda.exe
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\bin\Debug\AkmanAjanda.pdb
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.csprojResolveAssemblyReference.cache
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.Form1.resources
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.Properties.Resources.resources
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.csproj.GenerateResource.Cache
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.exe
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.pdb
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.anaForm.resources
+c:\users\root\documents\visual studio 2012\Projects\AkmanAjanda\AkmanAjanda\obj\Debug\AkmanAjanda.rehberEkle.resources

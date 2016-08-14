@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40C7DF38-9ED2-4663-9489-724924283726}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AkmanAjanda</RootNamespace>
+    <AssemblyName>AkmanAjanda</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>vector_book_icon_vector_graphic_creattor_7.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anaForm.Designer.cs">
+      <DependentUpon>anaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="canliRadyo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="canliRadyo.Designer.cs">
+      <DependentUpon>canliRadyo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gazete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gazete.Designer.cs">
+      <DependentUpon>gazete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gunluk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gunluk.Designer.cs">
+      <DependentUpon>gunluk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hakkinda.Designer.cs">
+      <DependentUpon>hakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="k_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="k_ekle.Designer.cs">
+      <DependentUpon>k_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="k_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="k_guncelle.Designer.cs">
+      <DependentUpon>k_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="k_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="k_sil.Designer.cs">
+      <DependentUpon>k_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="not.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="not.Designer.cs">
+      <DependentUpon>not.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rehberEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rehberEkle.Designer.cs">
+      <DependentUpon>rehberEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rehberSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rehberSil.Designer.cs">
+      <DependentUpon>rehberSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rehberSorgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rehberSorgu.Designer.cs">
+      <DependentUpon>rehberSorgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tarayici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tarayici.Designer.cs">
+      <DependentUpon>tarayici.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anaForm.resx">
+      <DependentUpon>anaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="canliRadyo.resx">
+      <DependentUpon>canliRadyo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gazete.resx">
+      <DependentUpon>gazete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gunluk.resx">
+      <DependentUpon>gunluk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hakkinda.resx">
+      <DependentUpon>hakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="k_ekle.resx">
+      <DependentUpon>k_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="k_guncelle.resx">
+      <DependentUpon>k_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="k_sil.resx">
+      <DependentUpon>k_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="not.resx">
+      <DependentUpon>not.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="rehberEkle.resx">
+      <DependentUpon>rehberEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rehberSil.resx">
+      <DependentUpon>rehberSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rehberSorgu.resx">
+      <DependentUpon>rehberSorgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tarayici.resx">
+      <DependentUpon>tarayici.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="vector_book_icon_vector_graphic_creattor_7.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
